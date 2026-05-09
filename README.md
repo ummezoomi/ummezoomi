@@ -28,19 +28,14 @@ My expertise lies in squeezing terabytes of effective bandwidth out of legacy ha
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" alt="Streamlit" />
 </p>
 
-### 🚀 Active R&D & Private Architecture
-*(Codebases currently locked in private repositories for IP protection)*
+### 📊 R&D Footprint
+> *Due to the proprietary nature of my current architecture and algorithms, my primary development occurs in stealth/private repositories.*
 
+*   🔒 **50+ Dedicated R&D Repositories:** Containing thousands of commits detailing my algorithmic progression, engine architecture, and low-level optimizations.
+*   💻 **Extensive HPC Notebook Logging:** A massive, documented history of iterative testing, focusing on deterministic physics, spatial intelligence, and CUDA kernel benchmarking.
+
+### 🚀 Active Private Architecture
 *   ⚙️ **The U.M.E.R. Engine:** A custom, GPU-native deterministic physics runtime. Built from the ground up using advanced spatial hashing and prefix-sum algorithms to rival NVIDIA Warp in highly memory-bound simulation kernels.
 *   🧠 **Nethanial Architecture:** An autonomous, self-evolving LLM-style agent pipeline engineered specifically for the generation, profiling, and JIT compilation of highly optimized CUDA kernels.
 *   🧬 **Diagnostic Ensemble Pipeline:** An intelligent dual-stage framework for Thalassemia screening utilizing complex genetic algorithms (Paper submitted to EMBC 2026).
 *   🌌 **Wave Monism Theory:** Independent theoretical physics R&D focused on deterministic wave mechanics and spatial intelligence.
-
-### 📊 Commit Activity & Code Velocity
-<!-- Live GitHub Stats Cards -->
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ummezoomi&theme=dark&hide_border=true" alt="GitHub Streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ummezoomi&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</p>
