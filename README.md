@@ -37,5 +37,5 @@ My expertise lies in squeezing terabytes of effective bandwidth out of legacy ha
 ### 🚀 Active Private Architecture
 *   ⚙️ **The U.M.E.R. Engine:** A custom, GPU-native deterministic physics runtime. Built from the ground up using advanced spatial hashing and prefix-sum algorithms to rival NVIDIA Warp in highly memory-bound simulation kernels.
 *   🧠 **Nethanial Architecture:** An autonomous, self-evolving LLM-style agent pipeline engineered specifically for the generation, profiling, and JIT compilation of highly optimized CUDA kernels.
-*   🧬 **Diagnostic Ensemble Pipeline:** An intelligent dual-stage framework for Thalassemia screening utilizing complex genetic algorithms (Paper submitted to EMBC 2026).
+*   🧬 **Diagnostic Ensemble Pipeline:** An intelligent dual-stage framework for Thalassemia screening utilizing complex genetic algorithms.
 *   🌌 **Wave Monism Theory:** Independent theoretical physics R&D focused on deterministic wave mechanics and spatial intelligence.
