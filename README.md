@@ -1,64 +1,72 @@
-# Muhammad Umer ⚡ Hardware-Aware Systems & HPC
+# Muhammad Umer ⚡ Systems Architecture, HPC & Spatial Compute
 
 > *"I don't just write code; I design software that physically aligns with silicon."*
 
-I am a High-Performance Computing (HPC) Engineer and AI researcher specializing in bare-metal GPU optimization, parallel computing, and systems architecture. While the industry throws raw compute power at complex problems, I focus on the true bottleneck: **memory bandwidth**. 
+I am the inventor and developer of the **U.M.E.R. (Uniform Memory Encoded Representation) Engine**, a deterministic, sort-free spatial compute architecture. While the industry throws brute-force hardware at complex hierarchical trees ($O(\log N)$), my research focuses on entirely eliminating branching logic, collapsing massive search spaces into flat, $O(1)$ memory topologies.
 
-My expertise lies in squeezing terabytes of effective bandwidth out of legacy hardware, maximizing L1/L2 cache residency, and writing low-latency kernels for massive-scale physical simulations, high-density AI agentic navigation, and sparse matrix operations.
+My work spans from bare-metal GPU optimization (CUDA/HIP) and neural rendering, all the way down to physical VLSI/ASIC microchip design, pushing the boundaries of High-Performance Computing (HPC) and introducing "Spatial Intelligence" as a deterministic alternative to probabilistic AI.
+
+---
+
+### 📄 Academic Publication
+**U.M.E.R: A Deterministic Sort Free Architecture for High Density Physical & Agentic Systems**
+* *Submitted to:* The Journal of Supercomputing
+* *Preprint DOI:* [10.21203/rs.3.rs-9848255/v1](https://doi.org/10.21203/rs.3.rs-9848255/v1)
+
+---
 
 ### 🧠 Core Competencies
-* **Kernel Optimization:** Warp-level synchronization, minimizing divergence, and PTX assembly.
-* **Memory Architecture:** Coalesced memory access, shared memory bank conflict resolution, and spatial data structures.
-* **Neural Rendering:** Bypassing $O(N \log N)$ sorting bottlenecks in 3D Gaussian Splatting via deterministic hashing.
-* **Deterministic Systems:** Building bit-accurate multiphysics engines across floating-point architectures.
+* **Spatial Compute Architecture:** Deterministic, sort-free $O(1)$ hardware pipelines, prefix-sum memory compaction, and autonomous VRAM defragmentation.
+* **Bare-Metal GPU Engineering:** Warp-level synchronization, stream compaction, minimizing execution divergence (Software-SER), and cross-platform compilation (CUDA & HIP).
+* **Silicon & VLSI Design:** Translating massively parallel search algorithms directly into RTL/Verilog logic gates for ASIC printing (SkyWater 130nm).
+* **Spatial Intelligence:** Bypassing probabilistic Machine Learning (CNNs, RL, Decision Trees) by mapping high-dimensional data into deterministic "Mass Gravity" topologies.
+* **Neural Rendering & Ray Tracing:** Bypassing $O(N \log N)$ sorting bottlenecks in 3D Gaussian Splatting and executing 3D DDA Wavefront traversal.
 
 ### 🛠️ The Arsenal
-**Compute & Low-Level:** <p align="left">
+**Compute & Silicon:** <p align="left">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/Parallel_Computing-FF6F00?style=for-the-badge&logo=databricks&logoColor=white" alt="Parallel" />
+  <img src="https://img.shields.io/badge/AMD%20HIP-000000?style=for-the-badge&logo=amd&logoColor=white" alt="HIP" />
+  <img src="https://img.shields.io/badge/Verilog%20HDL-07405E?style=for-the-badge&logo=riscv&logoColor=white" alt="Verilog" />
 </p>
 
 **AI & Prototyping:** <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Cython-F2D411?style=for-the-badge&logo=python&logoColor=black" alt="Cython" />
+  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
 </p>
 
-### 🏆 Architectural Breakthroughs
-**Solving the 3DGS Radix Sort Bottleneck**
-Traditional 3D Gaussian Splatting relies on view-dependent alpha compositing, forcing an $O(N \log N)$ global hardware radix sort every frame. I engineered a view-independent, amortized spatial hash pipeline (The U.M.E.R. Architecture) that bypasses this bottleneck entirely. 
-* **Result:** Achieved a **6.35x true architectural speedup** (0.52ms vs 3.32ms per frame) over native hardware radix sort pipelines on 2,000,000 splats.
-* **Mechanism:** Implemented Global AABB Teleportation and Early Ray Termination ($\alpha \ge 0.99$), reducing dense memory fetches by 85.5% (from 200.0 to 29.0 evaluated splats per ray).
+---
 
-### 📊 R&D Footprint
-> *Due to the proprietary nature of my current architecture and algorithms, my primary development occurs in stealth/private repositories.*
+### 🏆 Architectural Breakthroughs & Public Repositories
 
-* 🔒 **50+ Dedicated R&D Repositories:** Containing thousands of commits detailing my algorithmic progression, engine architecture, and low-level optimizations.
-* 💻 **Extensive HPC Notebook Logging:** A massive, documented history of iterative testing, focusing on deterministic physics, neural rendering scaling, and CUDA kernel benchmarking.
+**1. The Universal GPU Compute Core & Autonomous Defragmentation**
+Engineered an $O(N)$ linear-time spatial topology builder that bypasses the Pigeonhole Paradox. Implemented Autonomous VRAM Defragmentation, allowing the GPU to physically compact memory during chaotic fluid simulations ("Dam Break") without host OS intervention.
+* **Peak 1D Throughput:** 21,933 MCell/s.
+* **Peak 3D Throughput:** 18,102 MCell/s (Validated on AMD MI300X via HIP).
 
-### 🚀 Active Private Architecture
-* ⚙️ **The U.M.E.R. Engine:** A custom, GPU-native deterministic multiphysics runtime. Built from the ground up using advanced spatial hashing to rival NVIDIA Warp in highly memory-bound simulation kernels. Features a native ray-tracing paradigm bypassing $O(N \log N)$ sorting bottlenecks.
-  <details>
-  <summary><b>🔍 View Engine Architecture & Hardware Benchmarks (Click to Expand)</b></summary>
-  <br>
+**2. VLSI Spatial Core (The Massively Parallel Search Engine)**
+Translated the U.M.E.R. $O(1)$ spatial hash directly into silicon. Synthesized a 16-node parallel processing block (UPU) requiring only 19,744 total logic gates, capable of resolving deterministic spatial routes in pure picoseconds. Validated DRC-clean for SkyWater 130nm ASIC manufacturing.
 
-  **1. Core Execution & Throughput (Target: Tesla P100 sm_60)**
-  * **Topology Build Complexity:** $O(N)$ (Strictly linear, single-pass Parallel Prefix Sum).
-  * **Warp Execution Efficiency ($E_{warp}$):** 95.8% (Virtually eliminates branch divergence).
-  * **3D Coherent Throughput:** 5,815.3 MCell/s (1.52x speedup over NVIDIA Warp).
-  * **Physics Integration Latency (4M Particles):** 0.12 ms (Theoretical minimum bound achieved).
+**3. Ray Tracing Edge Cases & Software-SER**
+Replaced the traditional GPU Megakernel with a Two-Phase Wavefront Stream Compaction pipeline utilizing 3D DDA mathematics.
+* **Throughput:** 1.26 Billion Rays/s on a Tesla P100.
+* **Monte Carlo Resilience:** Shifted the bottleneck from VRAM to ALU math, suffering only a 14.7% throughput penalty during extreme path-tracing cache chaos. 
+* **Software-SER:** Utilized atomic scattering to isolate material divergence, achieving a near-theoretical maximum 2.90x speedup over standard Uber Shaders.
 
-  **2. Memory & Caching Subsystem (The Cache Amplification Effect)**
-  * **Effective Bandwidth:** Sustains up to 2,068.87 GB/s (P100) and 1,578.25 GB/s (T4), vastly exceeding physical hardware limits (732 GB/s and 320 GB/s) via superior L1/L2 data locality.
-  * **Allocation Model:** Bypasses the Pigeonhole Paradox; memory is allocated purely on discrete particle count, completely independent of bounding volume.
-  * **Per-Particle Overhead:** Asymptotically amortizes to strictly 38.7 Bytes per particle at 16M scale.
+**4. Solving the 3DGS Radix Sort Bottleneck**
+Traditional 3D Gaussian Splatting relies on view-dependent alpha compositing, forcing an $O(N \log N)$ global hardware radix sort every frame. I engineered a view-independent, amortized spatial hash pipeline that bypasses this bottleneck entirely. 
+* **Result:** Achieved a **6.35x true architectural speedup** over native hardware radix sort pipelines.
+* **Mechanism:** Implemented Global AABB Teleportation and Early Ray Termination ($\alpha \ge 0.99$), reducing dense memory fetches by 85.5%.
 
-  **3. Efficiency, Thermodynamics & Stress Testing**
-  * **Energy-Delay Product (EDP):** $5.1 \times 10^{-5}$ J·s (A 2.3x reduction over NVIDIA Warp's $1.20 \times 10^{-4}$ J·s).
-  * **Energy Conservation:** 0.992x closed-system stability maintained over 1,000 frames using a Symplectic Euler integrator.
-  * **The "Black Hole" Pathological Limit:** When 1,000,000 particles are artificially forced into a single spatial bucket (100% collision rate), Hash Time gracefully caps at 0.90 ms without crashing the pipeline.
-  </details>
-* 🧠 **Nethanial Architecture:** An autonomous, self-evolving LLM-style agent pipeline engineered specifically for the generation, profiling, and JIT compilation of highly optimized CUDA kernels. (BUILT ON TOP OF U.M.E.R architecture)
-* 🌌 **Wave Monism Theory:** Independent theoretical physics R&D focused on deterministic wave mechanics and spatial intelligence.
+**5. Spatial Intelligence (Anti-Black-Box AI)**
+Completely discarded the Markov Decision Process (RL) and Convolutional filters (CNNs). By mapping dimensions to spatial tensors and calculating deterministic "Mass Gravity":
+* Attained **90.00% accuracy** on clinical ultrasound datasets with 100% traceably diagnosed false-positives.
+* Achieved **Training-Free** agentic navigation for high-DoF robotics, replacing days of probabilistic epoch training with instant $O(1)$ execution.
+
+---
+
+### 🚀 Active R&D
+* ⚙️ **The U.M.E.R. Engine Ecosystem:** Continual expansion of the core PyCUDA/HIP backend across cross-disciplinary fields, from granular fluid dynamics to relativistic astrophysics (Singularity & Accretion Disk modeling).
+* 👁️ **Synthetic Reality Compiler:** A U.M.E.R-driven foundry bridging deterministic physics with Unity, transforming arbitrary 3D models into pixel-perfect, mathematically grounded synthetic datasets for Computer Vision ML training.
+* 🌌 **Wave Monism Theory:** Independent theoretical physics R&D focused on deterministic wave mechanics.
